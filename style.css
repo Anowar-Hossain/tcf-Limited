@@ -1,0 +1,544 @@
+@font-face{
+  font-family: 'klavika';
+  src: url('/custom\ font/klavika-medium.otf');
+}
+body{
+   font-family: 'klavika', sans-serif;
+   font-weight: bold;
+   font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      margin: 0;
+  }
+
+  /*------nav related styles---------- */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 70px;
+    color: rgba(244, 244, 244, 1);
+    padding: 5PX 0;
+  }
+
+nav > ul {
+   display: flex;
+}
+ nav li{
+  list-style: none;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 700;
+ }
+
+ nav a{
+  text-decoration: none;
+  color:rgba(28, 77, 120, 1);
+ }
+
+ /*---------header related style----------*/
+
+ .header{
+  background: rgba(244, 244, 244, 1);
+ }
+
+
+/*---------banner related style--------*/
+
+.banner{
+  background-image: url('images/img.-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  display: flex;
+}
+
+.half-width{
+  width: 50%;
+  padding: 120px;
+  line-height: 20px; 
+}
+  
+.banner-font-color {
+  color: rgba(207, 228, 244, 1);
+}
+.ml-2{
+  margin-left: 15px;
+}
+.banner-button{
+    width: 130px;
+    height: 40px;
+    top: 300.53px;
+    border-radius: 8px;
+    color:rgba(0, 29, 55, 1);
+    background: rgba(206, 240, 200, 1);
+    margin-top: 10px;
+}
+
+.logo-2 {
+width: 142.7px;
+height: 100.64px;
+}
+
+.d-flex{
+margin:50px;
+margin-left: 250px;
+max-width: 350px;
+max-height: 100px;
+}
+
+.p-2{
+  margin-left: 300px;
+  max-width: 300px;
+  margin-bottom:280px ;
+  margin-top: -40px;
+}
+
+.icon-1 img{
+  width: 70px;
+  height: 3px;
+  border-radius: 3px 0px 0px 0px;
+  margin-bottom: 15px;
+}
+
+.icon-2{
+width: 24px;
+height: 24px;
+top: 847px;
+left: 1832px;
+border: 2.73px 0px 0px 0px;
+margin-left: 600px;
+}
+
+.icon-3{
+width: 24px;
+height: 24px;
+top: 847px;
+left: 1843px;
+border: 2.73px 0px 0px 0px;
+}
+
+
+/*--section-1 style--*/
+
+.grid-1{
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.one-third{
+  margin:200px 50px 50px 100px; 
+  transform: translateY(-50%);
+}
+
+.one-third ul{
+  list-style: none;
+  padding-left: 20px;
+  position: relative;
+  }
+
+.one-third ul::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: calc(100% - 58px);
+    top: 0;
+    margin-top: 25px;
+    background: blue;
+    z-index: -1;
+   }
+
+.one-third ul li {
+    padding: 19px 0;
+    padding-left: 25px;
+   }
+
+.one-third ul > li > a{
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 500;
+   }
+
+   .one-third ul li :before{
+    content: "";
+    position: absolute;
+    background: red;
+    width: 5px;
+    height: 5px;
+    left: -27px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius:150px;
+   }
+
+
+   .two-third{
+    position: relative;
+   }
+
+   .one-third ul ::after{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: calc(150% - 50px);
+    top: 0;
+    right: -40px;
+    background: blue;
+    z-index: -1;
+    margin-left: 50px;
+
+   }
+
+
+.side-img img{
+width: 472px;
+height: 585px;
+}
+.h-flex{
+  display: flex;
+}
+
+.two-third{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.grid-1 h1{
+  margin: 60px 0 0 70px;
+}
+
+.one-third img{
+width: 25px;
+margin-left: -32px;
+}
+
+
+/*Section 2 related style*/
+
+.bi-2{
+background: linear-gradient(180deg, #1E1E1E 0%, #01507C 100%);
+width:1349px;
+height: 400px;
+color: white;
+margin-top: -37px;
+padding: 30px;
+}
+
+.bi-2 h3{
+  margin-bottom: -30px;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: 24% 32% 22% 22%;
+}
+
+.fourth-one{
+margin-left: -3px;
+margin-bottom: 15px ;
+
+}
+
+.pc-1{
+padding: 25px;
+position: relative;
+}
+
+.line ::after{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: calc(60% - 30px);
+    top: 0;
+    border: 2px solid rgba(191, 191, 191, 1);
+    right: 10px;
+    margin-top: 90px;
+}
+
+.i-4{
+  margin-right: 10px;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.i-5{
+  margin-right: 10px;
+  max-width: 30px;
+  max-height: 30px;
+  margin-bottom: 15px;
+}
+.i-7{
+  margin-right: 10px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.pc-1 p{
+font-size: 10px;
+font-weight: 550;
+line-height: 18px;
+}
+ 
+.span{
+  color: yellow;
+  margin-right: 5px;
+  font-size: 8px;
+}
+
+.mt{
+  margin-top: -50px;
+}
+
+
+/*-------Section-3 Styles----------*/
+
+.boat-2{
+  background-image: url('images/img-3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  padding: 50px;
+}
+
+.common-w-color{
+  color: rgba(255, 255, 255, 1);
+}
+
+.grid-3{
+  display: grid;
+  grid-template-columns: 30% 35%;
+}
+
+.common-icon-style{
+width: 50px;
+height: 50px;
+margin-right: 15px;
+}
+
+.mr-1{
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.common-p-style{
+font-size: 10px;
+font-weight: 300;
+line-height: 19.2px;
+color: rgba(255, 255, 255, 1);
+}
+
+.side-mr{
+  margin-left: 100px;
+}
+
+.strate-line{
+  position: relative;
+}
+
+.strate-line ::after{
+    content: "";
+    position: absolute;
+    height: calc(95% - 30px);
+    width: 1px;
+    top: 0;
+    right: -50px;
+    margin-top: 50px;
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+
+
+/*---------Section-4 Styles=---------*/
+
+
+.bg-2{
+background: linear-gradient(149.36deg, #243B50 9.43%, #0573C3 104.37%, #007CD6 219.88%);
+width:1210px;
+height: 900px;
+padding: 35px;
+margin: 55px;
+}
+
+.grid-4{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-bottom: 50px;
+ 
+}
+.i-6 img {
+width: 500px;
+height: 470px;
+padding: 40px;
+margin-bottom: 100px;
+}
+
+.mr-2{
+  margin-left: -200px;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  align-items:center ;
+}
+
+#mt-2{
+  margin-top: 50px;
+}
+
+
+.visit-button{
+width: 180px;
+height: 50px;
+background: rgba(211, 234, 255, 1);
+border-radius: 8px;
+padding: 10px;
+color: rgba(38, 90, 167, 1);
+margin-left: 100px;
+margin-bottom: 70px;
+}
+
+.icon-14{
+  margin-left: 9px;
+}
+
+.span-2{
+font-size: 20px;
+font-weight: 500;
+line-height: 31.75px;
+
+}
+
+.mr-3{
+  margin-left: 40px;
+}
+
+.grid-5{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.grid-5 h6{
+margin-top: 20px;
+font-size: 13px;
+}
+
+.grid-5 > .p-1{
+  padding: 50px;
+}
+
+.center{
+  margin-left: 22px;
+}
+
+.line-2{
+  position: relative;
+}
+.line-2::after{
+  content: "";
+  position: absolute;
+  height: calc(55%);
+  top: 0;
+  border: 1px solid rgba(191, 191, 191, 1);
+  right: -20px;
+  margin-top: 30px;
+}
+
+#visit-p-1{
+width: 600px;
+height: 100px;
+font-size: 12px;
+line-height: 30px;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 30px;
+
+}
+
+#visit-p{
+width: 600px;
+height: 100pxpx;
+font-size: 15px;
+line-height: 30px;
+}
+
+.services-2 li{
+font-size: 20px;
+line-height: 35px;
+color:rgba(255, 255, 255, 1);
+}
+
+.span-3{
+width: 110px;
+height: 34px;
+opacity: 70%;
+line-height: 22.98px;
+color:rgba(255, 255, 255, 1);
+}
+
+.span-4{
+  color: rgba(255, 255, 255, 1);
+}
+
+.line-3{
+  position: relative;
+}
+
+.line-3::after{
+  content: "";
+  position: absolute;
+  height: calc(90%);
+  top: 0;
+  border: 1px solid rgba(191, 191, 191, 1);
+  right: -20px;
+  margin-top: 10px;
+}
+
+.ml-3{
+  margin-left: 60px;
+}
+
+/*-----------Section-5 Styles----------*/
+
+.grid-6{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.common-column-style{
+width: 280px;
+height: 250px;
+background: rgba(23, 82, 127, 1);
+padding: 40px;
+margin-top: 30px;
+line-height: 30px;
+}
+.common-btn{
+width: 110px;
+height: 33px;
+border-radius: 6px;
+background: rgba(206, 240, 255, 1);
+margin-left: 110px;
+}
+
+.span-5{
+color: rgba(0, 29, 55, 1);
+font-size: 14px;
+font-weight: 500;
+margin-right: 4px;
+}
+
+#mt-3{
+  margin-top: 30px;
+}
+
+#mt-4{
+  margin-top: 20px;
+}
+
+.subscribe-box{
+background: linear-gradient(90deg, #0B151E 0%, #206DA7 84%, #206DA7 84.01%, #2994E5 100%);
+}
