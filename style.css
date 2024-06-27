@@ -812,21 +812,39 @@ font-weight: 500;
 .flex-2{
   display: flex;
   width: 400px;
-  height: 120px;
+  height: 110px;
   margin-top: 40px;
   background: rgba(255, 255, 255, 1);
   border-radius: 5px;
   padding:15px 40px;
   line-height: 20px;
+  margin-top: -2px;
 }
 
-.flex-2 img{
-width: 40px;
-height: 40px;
-top: 7240.09px;
-left: 209.16px;
-gap: 0px;
-opacity: 0px;
+.top-color{
+width: 400px;
+height: 10.54px;
+background: rgba(1, 118, 211, 1);
+margin-top: 80px;
+}
+
+
+.icon-24{
+  width: 30px;
+height: 30px;
+}
+
+.icon-25{
+width: 35px;
+height: 35px;
+margin-left: 15px;
+}
+
+.icon-26{
+width: 50px;
+height: 30px;
+margin-bottom: 5px;
+margin-left: 12px;
 
 }
 
@@ -841,25 +859,25 @@ line-height: 12px;
 }
 
 
-.flex-2 h3{
-margin-top: -15px;
-}
-
 .mr-4 p{
   font-weight: 800;
 }
 
 .mr-4 h3{
   font-weight: 400;
+  margin-top: -15px;
+
 }
 
 .mr-5 h3{
   font-weight: 800;
   color: rgba(0, 0, 0, 1);
+  margin-top: -20px;
 }
 .patent h3{
   font-weight: 800;
   color: rgba(0, 0, 0, 1);
+  margin-top: -20px;
 }
 
 
@@ -941,3 +959,78 @@ margin-left: 5px;
   margin-left: -10px;
 }
 
+
+/*----------Footer Styles--------*/
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.footer-logo img{
+width: 200px;
+height: 100px;
+}
+
+.flex-3{
+  display: flex;
+}
+
+.flex-3 h6{
+font-size: 12px;
+font-weight: 350;
+line-height: 15px;
+text-align: left;
+color: rgba(55, 69, 80, 1);
+
+}
+
+.icon-28, .icon-30{
+background: rgba(26, 55, 99, 1);
+padding: 4px;
+margin-right: 15px;
+width: 15px;
+height: 30px;
+
+}
+
+.icon-29{
+  background: rgba(52, 139, 203, 1);
+  padding: 4px;
+  margin-right: 15px;
+  width: 15px;
+  height: 30px;
+}
+
+footer h5{
+font-size: 15px;
+font-weight: 700;
+color: rgba(55, 69, 80, 1);
+}
+
+.group-1{
+  margin-bottom: 15px;
+}
+
+.footer-btn{
+width: 80px;
+height: 35px;
+border-radius: 5px;
+background: rgba(38, 90, 167, 1);
+border: rgba(38, 90, 167, 1) ;
+color: rgba(244, 244, 244, 1);
+font-size: 12px;
+}
+
+.group-2{
+  width: 300px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.details h4{
+font-size: 13px;
+font-weight: 500;
+color: rgba(55, 69, 80, 1);
+}
