@@ -32,7 +32,9 @@ nav > ul {
   font-size: 20px;
   font-weight: 700;
  }
-
+.hamburger{
+  display: none;
+}
  nav a{
   text-decoration: none;
   color:rgba(28, 77, 120, 1);
@@ -1109,3 +1111,34 @@ font-weight: 500;
 line-height: 10.07px;
   margin-top: 5px;
 }
+
+
+
+/*----------Using Media query---------*/
+
+@media screen and (max-width:600px) {
+ .header nav ul{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+
+.banner{
+  display: block;
+  margin-top: 200px;
+  justify-content: center;
+
+}
+.banner .half-width{
+
+}
+
+.half-width h1{
+  font-size: 15px;
+}
+}
+
