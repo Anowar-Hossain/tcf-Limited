@@ -28,39 +28,90 @@
           <li><a class="contact" href="#">Contact Us</a></li>
         </ul>
       </nav>
-      <div class="banner banner-font-color">
-        <div class="half-width">
-          <div class="icon-1">
-            <img src="icon/icon-1.png" alt="" />
-            <img id="i-color" src="icon/icon-1.png" alt="" />
-            <img src="icon/icon-1.png" alt="" />
-            <img src="icon/icon-1.png" alt="" />
-          </div>
-          <h1>Merger & Acquisition</h1>
-          <h5>Connecting Global Visions, Bridging Markets</h5>
-          <p class="p-1">
-            Unlock new horizons with our expert Cross-Border M&A services. We
-            specialize in connecting businesses across borders, facilitating
-            strategic mergers and acquisitions that drive global growth. Partner
-            with us to bridge markets and achieve your international ambitions.
-          </p>
-          <button class="banner-button">Learn more</button>
+      <div class="all">
+        <div class="arrow l" onclick="prev()">
+          <img src="icon/icon-3.png" alt="l" />
         </div>
-        <div>
-          <div class="d-flex">
-            <div class="ml">
-              <img class="logo-2" src="logo/logo-2.png" alt="" />
-            </div>
-            <div class="ml-2">
-              <h4>Tokya Venture capital</h4>
-              <h6>Be Global, Make Innovation</h6>
+        <div class="slide slide-1">
+          <div class="common-b-style banner-font-color">
+            <div class="half-width">
+              <h1>Accounting & Taxataiton</h1>
+              <h5>Best Firm in Bangladesh</h5>
+              <p class="p-3">
+                Unlock new horizons with our expert Cross-Border M&A services.
+                We specialize in connecting businesses across borders,
+                facilitating.
+              </p>
+              <button class="banner-button common-btn-1">Learn More</button>
             </div>
           </div>
-          <p class="p-2">
-            Empowering Global Ambitions Through Expert “Mergers & Acquisitions”
-          </p>
-          <img class="icon-2" src="icon/icon-2.png" alt="" />
-          <img class="icon-3" src="icon/icon-3.png" alt="" />
+        </div>
+        <div class="slide slide-2">
+          <div class="banner-font-color b-2">
+            <div class="half-width">
+              <h1>Merger & Acquisition</h1>
+              <h5>Connecting Global Visions, Bridging Markets</h5>
+              <p class="p-1">
+                Unlock new horizons with our expert Cross-Border M&A services.
+                We specialize in connecting businesses across borders,
+                facilitating strategic mergers and acquisitions that drive
+                global growth. Partner with us to bridge markets and achieve
+                your international ambitions.
+              </p>
+              <button class="banner-button">Learn More</button>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="ml">
+                  <img class="logo" src="logo/logo-2.png" alt="" />
+                </div>
+                <div class="ml-2">
+                  <h4>Tokyo Venture Capital</h4>
+                  <h6>Be Global, Make Innovation</h6>
+                </div>
+              </div>
+              <p class="p-2">
+                Empowering Global Ambitions Through Expert
+                <span class="span-14">“Mergers & Acquisitions”</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-3">
+          <div class="common-b-style banner-font-color">
+            <div class="half-width">
+              <h1>Management Consulting</h1>
+              <h5>Your trustable & Dependable Firm in Bangladesh</h5>
+              <p class="p-3">
+                Unlock new horizons with our expert Cross-Border M&A services.
+                We specialize in connecting businesses across borders,
+                facilitating.
+              </p>
+              <button class="banner-button common-btn-1">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-4">
+          <div class="common-b-style banner-font-color b-4">
+            <div class="half-width">
+              <h1>
+                Our <br />
+                <span class="span-13">Vision</span>
+              </h1>
+              <p class="p-3">
+                Now that the average age of tax accountants is over 60 and the
+                industry has completely matured (or declined), what kind of
+                vision should we have and how should we change the industry?
+                Before thinking about this, I think that there are things that
+                companies must not change and things that must be changed. I
+                would like to think first so as not to confuse the two.
+              </p>
+              <button class="banner-button common-btn-1">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="arrow r" onclick="next()">
+          <img src="icon/icon-2.png" alt="r" />
         </div>
       </div>
     </header>
@@ -69,40 +120,138 @@
     <!----Start Main----->
     <main>
       <!-----Section-1 Start----->
-      <section>
+      <section class="section-1">
         <div class="grid-1">
           <div>
             <h1>OUR PROFESSIONAL SERVICE</h1>
-            <div class="h-flex">
-              <div class="one-third">
-                <ul>
-                  <li class="li-1"><a href="#">Merger & Acquisition</a></li>
-                  <li><a href="#">Accounts & Taxation</a></li>
-                  <li class="just">
-                    <a class="just" href="#"
-                      ><span class="span-8">Legal & Secretarial</span></a
-                    >
-                  </li>
-                  <li><a href="#">Human Resource</a></li>
-                </ul>
+            <div class="tab-details">
+              <div class="tab">
+                <button
+                  class="tablinks"
+                  onclick="openService(event, 'Merger & Acquisition')" id="defaultOpen"
+                >
+                  <div class="flex-6">
+                    <div><span class="b-1"></span></div>
+                    <div>Merger & Acquisition</div>
+                  </div>
+                </button>
+                <button
+                  class="tablinks"
+                  onclick="openService(event, 'Accounts & Taxation')"
+                >
+                  <div class="flex-6">
+                    <div><span class="b-1"></span></div>
+                    <div>Accounts & Taxation</div>
+                  </div>
+                </button>
+                <button
+                  class="tablinks"
+                  onclick="openService(event, 'Legal & Secretarial')"
+                >
+                <div class="flex-6">
+                  <div><span class="b-1"></span></div>
+                  <div>Legal & Secretarial</div>
+                </div>
+                </button>
+                <button
+                  class="tablinks"
+                  onclick="openService(event, 'Human Resource')"
+                >
+                <div class="flex-6">
+                  <div><span class="b-1"></span></div>
+                  <div>Human Resource</div>
+                </button>
               </div>
-              <div class="two-third">
-                <h3 class="span-8">Legal & Secretarial</h3>
-                <div class="circle">
-                  <ul>
-                    <li><a href="">Company Establishment and Compliance</a></li>
-                    <li><a href="">Licensing and Registration</a></li>
-                    <li><a href="">Corporate Governance and Changes</a></li>
-                    <li><a href="">Closure and Liquidation</a></li>
-                    <li><a href="">Banking and Financial Services</a></li>
-                  </ul>
-                  <button class="sales-btn">Contact Sales</button>
+
+              <div>
+                <div id="Merger & Acquisition" class="tabcontent">
+                  <span onclick="this.parentElement.style.display='none'"></span>
+                  <div class="two-third">
+                    <h3 class="span-8">Merger & Acquisition</h3>
+                    <div class="circle">
+                    <div class="third-two">  
+                      <ul>
+                      <li>
+                        <a href="">Company Establishment and Compliance</a>
+                      </li>
+                      <li><a href="">Licensing and Registration</a></li>
+                      <li><a href="">Corporate Governance and Changes</a></li>
+                      <li><a href="">Closure and Liquidation</a></li>
+                      <li><a href="">Banking and Financial Services</a></li>
+                    </ul>
+                    <button class="sales-btn">Contact Sales</button>
+                  </div>
+                      <img src="images/img-1.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <div id="Accounts & Taxation" class="tabcontent">
+                  <span onclick="this.parentElement.style.display='none'"></span>
+                  <div class="two-third">
+                    <h3 class="span-8">Accounts & Taxation</h3>
+                    <div class="circle">
+                      <div class="third-two">
+                        <ul>
+                          <li>
+                            <a href="">Company Establishment and Compliance</a>
+                          </li>
+                          <li><a href="">Licensing and Registration</a></li>
+                          <li><a href="">Corporate Governance and Changes</a></li>
+                          <li><a href="">Closure and Liquidation</a></li>
+                          <li><a href="">Banking and Financial Services</a></li>
+                        </ul>
+                        <button class="sales-btn">Contact Sales</button>
+                      </div>
+                      <img src="images/img-8.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <div id="Legal & Secretarial" class="tabcontent">
+                  <span onclick="this.parentElement.style.display='none'"></span>
+                  <div class="two-third">
+                    <h3 class="span-8">Legal & Secretarial</h3>
+                    <div class="circle">
+                      <div class="third-two">
+                        <ul>
+                        <li>
+                          <a href="">Company Establishment and Compliance</a>
+                        </li>
+                        <li><a href="">Licensing and Registration</a></li>
+                        <li><a href="">Corporate Governance and Changes</a></li>
+                        <li><a href="">Closure and Liquidation</a></li>
+                        <li><a href="">Banking and Financial Services</a></li>
+                      </ul>
+                      <button class="sales-btn">Contact Sales</button>
+                    </div>
+                    <img src="images/img-2.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div id="Human Resource" class="tabcontent">
+                  <span onclick="this.parentElement.style.display='none'"></span>
+                  <div class="two-third">
+                    <h3 class="span-8">Human Resource</h3>
+                    <div class="circle">
+                      <div class="third-two">
+                        <ul>
+                          <li>
+                            <a href="">Company Establishment and Compliance</a>
+                          </li>
+                          <li><a href="">Licensing and Registration</a></li>
+                          <li><a href="">Corporate Governance and Changes</a></li>
+                          <li><a href="">Closure and Liquidation</a></li>
+                          <li><a href="">Banking and Financial Services</a></li>
+                        </ul>
+                        <button class="sales-btn">Contact Sales</button>
+                      </div>
+                      <img src="images/img-8.png" alt="">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="side-img">
-            <img src="images/img-2.png" alt="" />
           </div>
         </div>
       </section>
@@ -777,7 +926,80 @@
     </footer>
     <!------End Footer------>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
-  "></script>
+    <script>
+      /*--------Start Slider-------*/
+      let slide = document.querySelectorAll(".slide");
+      var current = 0;
+
+      function cls() {
+        for (let i = 0; i < slide.length; i++) {
+          slide[i].style.display = "none";
+        }
+      }
+
+      function next() {
+        cls();
+        if (current === slide.length - 1) current = -1;
+        current++;
+
+        slide[current].style.display = "block";
+        slide[current].style.opacity = 0.4;
+
+        var x = 0.4;
+        var intX = setInterval(function () {
+          x += 0.1;
+          slide[current].style.opacity = x;
+          if (x >= 1) {
+            clearInterval(intX);
+            x = 0.4;
+          }
+        }, 100);
+      }
+
+      function prev() {
+        cls();
+        if (current === 0) current = slide.length;
+        current--;
+
+        slide[current].style.display = "block";
+
+        var x = 0.4;
+        var intX = setInterval(function () {
+          x += 0.1;
+          slide[current].style.opacity = x;
+          if (x >= 1) {
+            clearInterval(intX);
+            x = 0.4;
+          }
+        }, 100);
+      }
+
+      function start() {
+        cls();
+        slide[current].style.display = "block";
+      }
+      start();
+      /*-------End Slider----------*/
+
+      /*--------Start Vertical tab-------*/
+      function openService(evt, serviceName) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(serviceName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById('defaultOpen').click();
+      /*------End Vertical tab-------*/
+    </script>
   </body>
 </html>
