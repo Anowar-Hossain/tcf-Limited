@@ -9,6 +9,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="custom font" />
+    <script defer src="activePage.js"></script>
     <link
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
@@ -19,12 +20,13 @@
     <!---Header Start----->
     <header class="header">
       <nav>
-        <img class="logo-1" src="logo/logo-1.png" alt="" />
+        <img class="logo-1" src="logo/logo-1.png"  alt="" />
         <ul>
-          <li><a class="active" href="#">Merger & Acquisition (M&A)</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Insights</a></li>
-          <li><a href="#">About us</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Merger & Acquisition (M&A)</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="about.html">About us</a></li>
           <li><a class="contact" href="#">Contact Us</a></li>
         </ul>
       </nav>
@@ -137,11 +139,11 @@
                 </button>
                 <button
                   class="tablinks"
-                  onclick="openService(event, 'Accounts & Taxation')"
+                  onclick="openService(event, 'Accounting')"
                 >
                   <div class="flex-6">
                     <div><span class="b-1"></span></div>
-                    <div>Accounts & Taxation</div>
+                    <div>Accounting</div>
                   </div>
                 </button>
                 <button
@@ -161,6 +163,38 @@
                   <div><span class="b-1"></span></div>
                   <div>Human Resource</div>
                 </button>
+                <button
+                  class="tablinks"
+                  onclick="openService(event, 'Company Set up')"
+                >
+                <div class="flex-6">
+                  <div><span class="b-1"></span></div>
+                  <div>Company Set up</div>
+                </button>
+                <button
+                  class="tablinks"
+                  onclick="openService(event, 'Tax & VAT')"
+                >
+                <div class="flex-6">
+                  <div><span class="b-1"></span></div>
+                  <div>Tax & VAT</div>
+                </button>
+                <button
+                  class="tablinks"
+                  onclick="openService(event, 'Expatriate Management')"
+                >
+                <div class="flex-6">
+                  <div><span class="b-1"></span></div>
+                  <div>Expatriate Management</div>
+                </button>
+                <button
+                  class="tablinks"
+                  onclick="openService(event, 'Research & Survey')"
+                >
+                <div class="flex-6">
+                  <div><span class="b-1"></span></div>
+                  <div>Research & Survey'</div>
+                </button>
               </div>
 
               <div>
@@ -172,12 +206,11 @@
                     <div class="third-two">  
                       <ul>
                       <li>
-                        <a href="">Company Establishment and Compliance</a>
+                        <a href="">Merger & Acquisition Support 
+                        </a>
                       </li>
-                      <li><a href="">Licensing and Registration</a></li>
-                      <li><a href="">Corporate Governance and Changes</a></li>
-                      <li><a href="">Closure and Liquidation</a></li>
-                      <li><a href="">Banking and Financial Services</a></li>
+                      <li><a href="">Introduce Foreign Investor for Merger & Acquisition
+                      </a></li>
                     </ul>
                     <button class="sales-btn">Contact Sales</button>
                   </div>
@@ -185,8 +218,7 @@
                     </div>
                   </div>
                 </div>
-
-                <div id="Accounts & Taxation" class="tabcontent">
+                <div id="Accounting" class="tabcontent">
                   <span onclick="this.parentElement.style.display='none'"></span>
                   <div class="two-third">
                     <h3 class="span-8">Accounts & Taxation</h3>
@@ -194,12 +226,70 @@
                       <div class="third-two">
                         <ul>
                           <li>
-                            <a href="">Company Establishment and Compliance</a>
-                          </li>
-                          <li><a href="">Licensing and Registration</a></li>
-                          <li><a href="">Corporate Governance and Changes</a></li>
-                          <li><a href="">Closure and Liquidation</a></li>
-                          <li><a href="">Banking and Financial Services</a></li>
+                            <a href="">Monthly Bookkeeping Service</a></li>
+                          <li><a href="">Quarterly Accounting report (FDI report)</a></li>
+                          <li><a href="">Financial Reporting Drafting</a></li>
+                          <li><a href="">Annual Statutory Audit</a></li>
+                          <li><a href="">Account Receivable</a></li>
+                        </ul>
+                        <button class="sales-btn">Contact Sales</button>
+                      </div>
+                      <img src="images/img-8.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div id="Legal & Secretarial" class="tabcontent">
+                  <span onclick="this.parentElement.style.display='none'"></span>
+                  <div class="two-third">
+                    <h3 class="span-8">Legal & Secretarial</h3>
+                    <div class="circle">
+                      <div class="third-two">
+                        <ul>
+                        <li><a href="">RJSC Annual Return</a></li>
+                        <li><a href="">Share Transfer & Directorship Change</a></li>
+                        <li><a href="">Authorize and Paid-up Capital increase</a></li>
+                        <li><a href="">MOA AOA Clause change</a></li>
+                        <li><a href="">Authorize and Paid-up Capital decrease</a></li>
+                      </ul>
+                      <button class="sales-btn">Contact Sales</button>
+                    </div>
+                    <img src="images/img-2.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <div id="Human Resource" class="tabcontent">
+                  <span onclick="this.parentElement.style.display='none'"></span>
+                  <div class="two-third">
+                    <h3 class="span-8">Human Resource</h3>
+                    <div class="circle">
+                      <div class="third-two">
+                        <ul>
+                          <li><a href="">Company Service rules draft</a></li>
+                          <li><a href="">Appointment letter draft</a></li>
+                          <li><a href="">Non disclosure agreement draft</a></li>
+                          <li><a href="">HR related documents draft</a></li>
+                          <li><a href="">Employee hand-book preparation</a></li>
+                        </ul>
+                        <button class="sales-btn">Contact Sales</button>
+                      </div>
+                      <img src="images/img-1.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <div id="Company Set up" class="tabcontent">
+                  <span onclick="this.parentElement.style.display='none'"></span>
+                  <div class="two-third">
+                    <h3 class="span-8">Company Set up</h3>
+                    <div class="circle">
+                      <div class="third-two">
+                        <ul>
+                          <li><a href="">Limited Company formation advisory</a></li>
+                          <li><a href="">Limited Company RJSC registration</a></li>
+                          <li><a href="">Limited Company BIDA Industrial registration</a></li>
+                          <li><a href="">TIN and BIN certificate  obtaining</a></li>
+                          <li><a href="">BEZA Investment Clearance Certificate</a></li>
                         </ul>
                         <button class="sales-btn">Contact Sales</button>
                       </div>
@@ -208,41 +298,58 @@
                   </div>
                 </div>
 
-                <div id="Legal & Secretarial" class="tabcontent">
+                <div id="Tax & VAT" class="tabcontent">
                   <span onclick="this.parentElement.style.display='none'"></span>
                   <div class="two-third">
-                    <h3 class="span-8">Legal & Secretarial</h3>
-                    <div class="circle">
-                      <div class="third-two">
-                        <ul>
-                        <li>
-                          <a href="">Company Establishment and Compliance</a>
-                        </li>
-                        <li><a href="">Licensing and Registration</a></li>
-                        <li><a href="">Corporate Governance and Changes</a></li>
-                        <li><a href="">Closure and Liquidation</a></li>
-                        <li><a href="">Banking and Financial Services</a></li>
-                      </ul>
-                      <button class="sales-btn">Contact Sales</button>
-                    </div>
-                    <img src="images/img-2.png" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div id="Human Resource" class="tabcontent">
-                  <span onclick="this.parentElement.style.display='none'"></span>
-                  <div class="two-third">
-                    <h3 class="span-8">Human Resource</h3>
+                    <h3 class="span-8">Tax & VAT</h3>
                     <div class="circle">
                       <div class="third-two">
                         <ul>
                           <li>
-                            <a href="">Company Establishment and Compliance</a>
-                          </li>
-                          <li><a href="">Licensing and Registration</a></li>
-                          <li><a href="">Corporate Governance and Changes</a></li>
-                          <li><a href="">Closure and Liquidation</a></li>
-                          <li><a href="">Banking and Financial Services</a></li>
+                            <a href="">Individual Tax Return (Local & Foreigner)</a></li>
+                          <li><a href="">Company Tax Planning</a></li>
+                          <li><a href="">Company Tax Assessment</a></li>
+                          <li><a href="">Monthly VAT return Submission</a></li>
+                          <li><a href="">Tax & VAT related advisory</a></li>
+                        </ul>
+                        <button class="sales-btn">Contact Sales</button>
+                      </div>
+                      <img src="images/img-2.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div id="Expatriate Management" class="tabcontent">
+                  <span onclick="this.parentElement.style.display='none'"></span>
+                  <div class="two-third">
+                    <h3 class="span-8">Expatriate Management</h3>
+                    <div class="circle">
+                      <div class="third-two">
+                        <ul>
+                          <li>
+                            <a href="">Visa recommendation for foreigner</a></li>
+                          <li><a href="">Visa obtaining & extension for foreigner</a></li>
+                          <li><a href="">Work permit obtain for foreigner</a></li>
+                          <li><a href="">Foreigner Security clearance obtaining</a></li>
+                          <li><a href="">Foreigner Bank Account opening</a></li>
+                        </ul>
+                        <button class="sales-btn">Contact Sales</button>
+                      </div>
+                      <img src="images/img-1.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div id="Research & Survey" class="tabcontent">
+                  <span onclick="this.parentElement.style.display='none'"></span>
+                  <div class="two-third">
+                    <h3 class="span-8">Research & Survey</h3>
+                    <div class="circle">
+                      <div class="third-two">
+                        <ul>
+                          <li>
+                            <a href="">Market Research for Business in Bangladesh</a></li>
+                          <li><a href="">Research work related to new Law and Regulation</a></li>
+                          <li><a href="">Research work related to Establishing Factory in BEZA/BEPZA</a></li>
+                          <li><a href="">Analysis the prospect and probability of a new business model</a></li>
                         </ul>
                         <button class="sales-btn">Contact Sales</button>
                       </div>
@@ -250,6 +357,7 @@
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -906,7 +1014,7 @@
             <a href="">Privacy Information</a>
             <a href="">Cookie Preferences</a>
             <a href=""> Contact</a>
-            <a href=""> Contact</a>
+            <a href=""> Sitemap</a>
           </div>
         </div>
         <div class="flex-5">
@@ -924,6 +1032,7 @@
         </div>
       </div>
     </footer>
+
     <!------End Footer------>
 
     <script>
