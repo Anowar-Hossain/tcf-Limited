@@ -371,6 +371,7 @@ header .fa-bars {
   font-size: 20px;
   font-weight: 500;
   line-height: 18px;
+  margin-right: 10px;
 }
 
 .tab button.active {
@@ -469,7 +470,7 @@ header .fa-bars {
   content: "";
   position: absolute;
   width: 2px;
-  height: calc(115% - 60px);
+  height: calc(125% - 60px);
   top: 0;
   margin-top: 25px;
   background: rgba(217, 217, 217, 1);
@@ -484,7 +485,7 @@ header .fa-bars {
   content: "";
   position: absolute;
   width: 2px;
-  height: calc(135% - 60px);
+  height: calc(100% - 60px);
   top: 0;
   margin-top: 25px;
   background: rgba(217, 217, 217, 1);
@@ -495,7 +496,7 @@ header .fa-bars {
 .section-3 {
   display: grid;
   grid-template-columns: 70% 30%;
-  margin-top: 130px;
+  margin-top: 20px;
 }
 
 .side-img img {

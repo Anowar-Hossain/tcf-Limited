@@ -3,9 +3,553 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/services.css" />
+    <title>Web.com</title>
   </head>
   <body>
-    <h1>This is servece Page</h1>
+    <!------------Header Start---------->
+    <header class="header">
+      <nav>
+        <img class="logo-1" src="logo/logo-1.png" alt="" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Merger & Acquisition (M&A)</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="vision.html">Vision</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a class="contact" href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-----------Header End=----------->
+
+    <!-----------Main Start------------>
+    <main>
+      <!---------Section-1 Start------->
+      <section>
+        <div class="tab-content">
+          <div class="flex-1">
+            <div class="flex-2">
+              <h4>Services</h4>
+              <span class="span-1"><img src="icon/icon-34.png" alt="" /></span>
+            </div>
+            <div class="click-tab">
+              <button
+                class="tab-links"
+                id="defaultOpen1"
+                onclick="openCompany(event, 'Accounting')"
+              >
+                Accounting
+              </button>
+              <button
+                class="tab-links"
+                onclick="openCompany(event, 'Tax & VAT')"
+              >
+                Tax & VAT
+              </button>
+              <button
+                class="tab-links"
+                onclick="openCompany(event, 'Legal & Secretarial')"
+              >
+                Legal <br />
+                & Secretarial
+              </button>
+              <button
+                class="tab-links"
+                onclick="openCompany(event, 'Company Set up')"
+              >
+                Company <br />
+                Set up
+              </button>
+              <button class="tab-links" onclick="openCompany(event, 'HR')">
+                HR
+              </button>
+              <button
+                class="tab-links"
+                onclick="openCompany(event, 'Expatriate Management')"
+              >
+                Expatriate <br />
+                Management
+              </button>
+              <button
+                class="tab-links"
+                onclick="openCompany(event, 'Research & Survey')"
+              >
+                Research <br />
+                & Survey
+              </button>
+              <button class="tab-links" onclick="openCompany(event, 'M&A')">
+                M&A
+              </button>
+            </div>
+          </div>
+
+          <!-- Tab content -->
+          <div id="Accounting" class="tabdetails">
+            <span onclick="this.parentElement.style.display='none'"></span>
+            <div class="grid-1">
+              <div class="pad-1">
+                <h1>Accounting Service</h1>
+                <div class="tab">
+                  <button
+                    class="tablinks"
+                    id="defaultOpen2"
+                    onclick="openService2(event, 'Monthly Bookkeeping Service')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Monthly Bookkeeping Service</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'Quarterly Accounting report (FDI report)')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Quarterly Accounting report (FDI report)</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'Financial Reporting Drafting')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Financial Reporting Drafting</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'Annual Statutory Audit')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Annual Statutory Audit</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'Account Receivable')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Account Receivable</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'Fixed Asset Register')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Fixed Asset Register</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'Depreciation Schedule')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Depreciation Schedule</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'Financial Analysis')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Financial Analysis</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'Accounting Setup for new Business')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Accounting Setup for new Business</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'Accounting Software Advisor')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>Accounting Software Advisor</div>
+                    </div>
+                  </button>
+                  <button
+                    class="tablinks"
+                    onclick="openService2(event, 'All sort of Accounting Consultancy')"
+                  >
+                    <div class="flex-4">
+                      <div class="b-1"><span></span></div>
+                      <div>All sort of Accounting Consultancy</div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="two-one">
+                <div id="Monthly Bookkeeping Service" class="tabcontent">
+                  <div class="side-tab">
+                    <h1>Monthly Bookkeeping Service</h1>
+                    <div class="flex-3">
+                      <div>
+                        <h2>Overview:</h2>
+                        <p class="p-1">
+                          Comprehensive quarterly analysis of Foreign Direct
+                          Investment (FDI) activities in Bangladesh.
+                        </p>
+                      </div>
+                      <div><img src="images/img-13.png" alt="" /></div>
+                    </div>
+                    <div class="mt-2">
+                      <h2>Objective:</h2>
+                      <p class="p-2">
+                        To provide detailed insights into FDI trends, financial
+                        performance, and their economic impact in Bangladesh.
+                      </p>
+                      <h2>
+                        Key <br />
+                        Features:
+                      </h2>
+                    </div>
+                    <div class="flex-5">
+                      <div><img src="icon/icon-35.png" alt="" /></div>
+                      <div>
+                        <p class="p-3">
+                          <span class="span-2">Investment Trends:</span>
+                          Highlights significant FDI inflows and outflows in
+                          Bangladesh, pinpointing key sectors and regions.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="flex-5">
+                      <div><img src="icon/icon-35.png" alt="" /></div>
+                      <div>
+                        <p class="p-3">
+                          <span class="span-2">Financial Analysis:</span>
+                          Evaluates the financial performance of FDI projects in
+                          Bangladesh, including profitability and return on
+                          investment.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="flex-5">
+                      <div><img src="icon/icon-35.png" alt="" /></div>
+                      <div>
+                        <p class="p-3">
+                          <span class="span-2">Risk Assessment:</span>
+                          Identifies potential risks and challenges for FDI
+                          projects in Bangladesh, offering strategic
+                          recommendations for mitigation.
+                        </p>
+                      </div>
+                    </div>
+                    <button>Contact Sales</button>
+                  </div>
+                </div>
+
+                <div
+                  id="Quarterly Accounting report (FDI report)"
+                  class="tabcontent"
+                >
+                  <h3>Quarterly Accounting report (FDI report)"</h3>
+                  <p>Paris is the capital of France.</p>
+                </div>
+
+                <div id="Financial Reporting Drafting" class="tabcontent">
+                  <h3>Financial Reporting Drafting</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="Annual Statutory Audit" class="tabcontent">
+                  <h3>Annual Statutory Audit</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="Account Receivable" class="tabcontent">
+                  <h3>Account Receivable</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="Fixed Asset Register" class="tabcontent">
+                  <h3>Fixed Asset Register</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="Depreciation Schedule" class="tabcontent">
+                  <h3>Depreciation Schedule</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="Financial Analysis" class="tabcontent">
+                  <h3>Financial Analysis</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="Accounting Setup for new Business" class="tabcontent">
+                  <h3>Accounting Setup for new Business</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="Accounting Software Advisor" class="tabcontent">
+                  <h3>Accounting Software Advisor</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="All sort of Accounting Consultancy" class="tabcontent">
+                  <h3>All sort of Accounting Consultancy</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------------------------------------>
+
+          <div id="Merger & Acquisition" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'"></span>
+          </div>
+
+          <div id="Legal & Secretarial" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'"></span>
+          </div>
+
+          <div id="Human Resource" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'"></span>
+          </div>
+
+          <div id="Company Set up" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'"></span>
+          </div>
+
+          <div id="Tax & VAT" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'"></span>
+          </div>
+          <div id="Expatriate Management" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'"></span>
+          </div>
+          <div id="Research & Survey" class="tabcontent">
+            <span onclick="this.parentElement.style.display='none'"></span>
+          </div>
+        </div>
+      </section>
+      <!---------Section-1 End--------->
+
+      <!---------Section-2 Start------->
+      <section class="section-2">
+        <h1>50+ partnerships to help accelerate change</h1>
+      </section>
+      <!---------Section-2 End--------->
+
+      <!---------Section-3 Start------->
+      <section class="section-3">
+        <div>
+          <h1>Our Global Reach & Business Areas</h1>
+          <h6>Discover Contents by Selecting a Country</h6>
+          <div class="grid">
+            <div class="country bd">
+              <img class="bd-flag" src="all country/c-1.png" alt="" /><span
+                class="name"
+                >Bangladesh </span
+              ><img class="i-27" src="icon/icon-27.png" alt="" />
+            </div>
+            <div class="country">
+              <img src="all country/c-2.png" alt="" />Kenya
+            </div>
+            <div class="country">
+              <img src="all country/c-3.png" alt="" />Peru
+            </div>
+            <div class="country">
+              <img src="all country/c-4.png" alt="" />Brazil
+            </div>
+            <div class="country">
+              <img src="all country/c-5.png" alt="" />Japan
+            </div>
+            <div class="country">
+              <img src="all country/c-6.png" alt="" />Philippines
+            </div>
+            <div class="country">
+              <img src="all country/c-7.png" alt="" />Cambodia
+            </div>
+            <div class="country">
+              <img src="all country/c-8.png" alt="" />Laos
+            </div>
+            <div class="country">
+              <img src="all country/c-9.png" alt="" />Russia
+            </div>
+            <div class="country">
+              <img src="all country/c-10.png" alt="" />China
+            </div>
+            <div class="country">
+              <img src="all country/c-11.png" alt="" />Malaysia
+            </div>
+            <div class="country">
+              <img src="all country/c-12.png" alt="" />South Africa
+            </div>
+            <div class="country">
+              <img src="all country/c-13.png" alt="" />Columbia
+            </div>
+            <div class="country">
+              <img src="all country/c-14.png" alt="" />Mexico
+            </div>
+            <div class="country">
+              <img src="all country/c-15.png" alt="" />Singapore
+            </div>
+            <div class="country">
+              <img src="all country/c-16.png" alt="" />Dubai (UAE)
+            </div>
+            <div class="country">
+              <img src="all country/c-17.png" alt="" />Mongolia
+            </div>
+            <div class="country">
+              <img src="all country/c-18.png" alt="" />SirLanka
+            </div>
+            <div class="country">
+              <img src="all country/c-19.png" alt="" />Hong Kong
+            </div>
+            <div class="country">
+              <img src="all country/c-20.png" alt="" />Morocco
+            </div>
+            <div class="country">
+              <img src="all country/c-21.png" alt="" />Thailand
+            </div>
+            <div class="country">
+              <img src="all country/c-22.png" alt="" />India
+            </div>
+            <div class="country">
+              <img src="all country/c-23.png" alt="" />Mayanmar
+            </div>
+            <div class="country">
+              <img src="all country/c-24.png" alt="" />Turkey
+            </div>
+            <div class="country">
+              <img src="all country/c-25.png" alt="" />Indonesia
+            </div>
+            <div class="country">
+              <img src="all country/c-26.png" alt="" />Nigeria
+            </div>
+          </div>
+        </div>
+        <div class="side-img-2">
+          <img src="images/img-7.png" alt="" />
+        </div>
+      </section>
+      <!----------Section-3 End----------->
+    </main>
+    <!-----------Main End------------->
+
+    <!-----------Footer Start--------->
+    <footer>
+      <div class="flex-9">
+        <div class="footer-logo">
+          <img src="insights/logo/Asset 1@3xs 1.png" alt="" />
+        </div>
+        <div>
+          <h5>Contact Information</h5>
+          <div class="flex-10">
+            <img class="icon-28" src="insights/icon/icon-28.png" alt="" />
+            <h6>+8802222274666</h6>
+          </div>
+          <div class="flex-10">
+            <img class="icon-29" src="insights/icon/icon-29.png" alt="" />
+            <h6>jp_bangladesh@tokyoconsultinggroup.com</h6>
+          </div>
+          <div class="flex-10">
+            <img class="icon-30" src="insights/icon/icon-30.png" alt="" />
+            <h6>
+              10th Floor Safura Tower 20, Kemal Ataturk Avenue <br />
+              Banani Dhaka, Dhaka, Bangladesh
+            </h6>
+          </div>
+        </div>
+        <div class="details">
+          <img class="group-1" src="insights/icon/Group 1.png" alt="" />
+          <h4>Business Hours</h4>
+          <img class="group-2" src="insights/icon/Group 2.png" alt="" />
+          <br />
+          <button class="footer-btn">8.30 AM</button>
+          <img src="insights/icon/icon-31.png" alt="" />
+          <button class="footer-btn">5.30 PM</button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          <h6>
+            @ Copyright 2025 Tokyo Consulting Firm Limited,
+            <a href="">All Rights Reserved</a>
+          </h6>
+          <div class="footer-a">
+            <a href="">Legal</a>
+            <a href="">Terms of Service </a>
+            <a href=""> Responsible Disclosure </a>
+            <a href="">Privacy Information</a>
+            <a href="">Cookie Preferences</a>
+            <a href=""> Contact</a>
+            <a href=""> Contact</a>
+          </div>
+        </div>
+        <div class="flex-11">
+          <div class="secondlast-class">
+            <img src="insights/icon/icon-1.png" alt="" />
+            <h6>BD</h6>
+          </div>
+          <div class="last-class">
+            <img src="insights/icon/icon-32.png" alt="" />
+            <h6>
+              VISIT <br />
+              GLOBAL
+            </h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-----------Footer End----------->
+
+    <!-----------Script------------->
+    <script>
+      /*----------Horizontal tab-------------*/
+      function openCompany(evt, companyRequirement) {
+        var i, tabcontentOne, tablinksOne;
+        tabcontentOne = document.getElementsByClassName("tabdetails");
+        for (i = 0; i < tabcontentOne.length; i++) {
+          tabcontentOne[i].style.display = "none";
+        }
+        tablinksOne = document.getElementsByClassName("tab-links");
+        for (i = 0; i < tablinksOne.length; i++) {
+          tablinksOne[i].className = tablinksOne[i].className.replace(
+            " active",
+            ""
+          );
+        }
+        document.getElementById(companyRequirement).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("defaultOpen1").click();
+
+      /*--------------Vertical tab-----------*/
+      function openService2(evt, serviceName) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(serviceName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("defaultOpen2").click();
+    </script>
   </body>
 </html>
