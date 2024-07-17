@@ -869,8 +869,7 @@
                 <h1>Tax & VAT Service</h1>
                 <div class="tab" id="service-2">
                   <button
-                    class="tablinks"
-                    id="defaultOpen2"
+                    class="tablinks active"
                     onclick="openService2(event, 'Individual Tax Return (Local & Foreigner)')"
                   >
                     <div class="flex-4">
@@ -5418,13 +5417,15 @@
         }
         tablinksOne = document.getElementsByClassName("tab-links");
         for (i = 0; i < tablinksOne.length; i++) {
-          tablinksOne[i].className = tablinksOne[i].className.replace(
-            " active",
-            ""
-          );
+          tablinksOne[i].className =
+            tablinksOne[i].className.replace(" active");
         }
         document.getElementById(companyRequirement).style.display = "block";
         evt.currentTarget.className += " active";
+        var element = document.getElementById(companyRequirement);
+        var closestAncestorWithClass = element.querySelector(".tablinks");
+        //console.log("closes", element, closestAncestorWithClass);
+        closestAncestorWithClass.click();
       }
       document.getElementById("defaultOpen1").click();
 
