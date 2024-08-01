@@ -1,8 +1,10 @@
 @font-face {
   font-family: "klavika";
+  src: url("/custom\ font/klavika-medium.otf");
   src: url("custom\ font/kalvika-medium-italic.otf");
-  src: url("custom\ font/klavika-medium.otf");
+  src: url("custom\ font/klavika-bold.otf");
 }
+
 body {
   font-family: "klavika";
   font-weight: bold;
@@ -13,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 html body {
   width: 100%;
   height: 100%;
@@ -25,9 +28,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 70px;
+  margin: 3px 70px 5px 70px;
   color: rgba(244, 244, 244, 1);
-  padding: 5px;
 }
 
 nav > ul {
@@ -37,24 +39,14 @@ nav > ul {
 nav li {
   list-style: none;
   margin-left: 40px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
-  margin-top: 15px;
-}
-
-.hamburger {
-  display: none;
+  margin-top: 24px;
 }
 
 nav a {
   text-decoration: none;
   color: rgba(28, 77, 120, 1);
-}
-/*--------------header related style---------------*/
-
-.header {
-  background: rgba(244, 244, 244, 1);
-  width: 100%;
 }
 
 /*---------------Slideshow Style--------------------*/
@@ -126,7 +118,6 @@ nav a {
   font-size: 8px;
   color: rgba(255, 255, 255, 1);
 }
-
 
 .span-14 {
   font-size: 20px;
@@ -1195,6 +1186,17 @@ footer h5 {
   font-size: 13px;
   font-weight: 500;
   color: rgba(55, 69, 80, 1);
+}
+
+.details .fa-brands {
+  margin-left: 20px;
+  color: rgba(38, 90, 167, 1);
+}
+
+.font-awesome {
+  margin-left: -20px;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .footer-bottom {

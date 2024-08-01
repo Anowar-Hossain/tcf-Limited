@@ -22,12 +22,6 @@ html body {
   overflow-x: hidden;
 }
 
-/*--------------header related style---------------*/
-.header {
-  background: rgba(244, 244, 244, 1);
-  width: 100%;
-}
-
 /*---------------nav related styles---------------*/
 nav {
   display: flex;
@@ -35,7 +29,6 @@ nav {
   align-items: center;
   margin: 0 70px;
   color: rgba(244, 244, 244, 1);
-  padding: 5px;
 }
 
 nav > ul {
@@ -84,7 +77,6 @@ nav a {
   width: 550px;
   border: 1px solid rgba(237, 239, 242, 1);
   background: rgba(237, 239, 242, 1);
-  border-radius: 5px;
   color: rgba(0, 0, 0, 1);
 }
 
@@ -124,7 +116,6 @@ nav a {
   display: none;
   padding: 6px 12px;
   border-top: none;
-  width: 500px;
   margin-left: 5px;
 }
 
@@ -152,6 +143,9 @@ nav a {
   height: 300px;
 }
 
+.pad-1 {
+  margin-top: 100px;
+}
 .pad-1 h1 {
   font-size: 40px;
   font-weight: 500;
@@ -200,6 +194,7 @@ nav a {
 .side-tab {
   background: rgba(5, 61, 102, 1);
   padding: 30px 0px 0px 60px;
+  border-radius: 15px 0px 0px 15px;
 }
 .side-tab h1 {
   font-size: 34px;
@@ -540,6 +535,17 @@ nav a {
   line-height: 15px;
   color: rgba(55, 69, 80, 1);
   margin-top: -10px;
+}
+
+.details .fa-brands {
+  margin-left: 20px;
+  color: rgba(38, 90, 167, 1);
+}
+
+.font-awesome {
+  margin-left: -20px;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .icon-28,

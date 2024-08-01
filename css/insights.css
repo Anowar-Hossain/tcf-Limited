@@ -19,9 +19,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 70px;
+  margin: 5px 70px 2px 70px;
   color: rgba(244, 244, 244, 1);
-  padding: 5px 0;
 }
 
 nav .navbar {
@@ -33,6 +32,7 @@ nav li {
   margin-left: 40px;
   font-size: 17px;
   font-weight: 700;
+  margin-top: 8px;
 }
 
 nav a {
@@ -751,6 +751,17 @@ footer h5 {
 .group-2 {
   width: 300px;
   margin-bottom: 15px;
+}
+
+.details .fa-brands {
+  margin-left: 20px;
+  color: rgba(38, 90, 167, 1);
+}
+
+.font-awesome {
+  margin-left: -20px;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .details h4 {

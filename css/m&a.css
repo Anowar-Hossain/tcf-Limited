@@ -21,7 +21,6 @@ nav {
   align-items: center;
   margin: 0 70px;
   color: rgba(244, 244, 244, 1);
-  padding: 5px;
 }
 
 nav > ul {
@@ -34,10 +33,6 @@ nav li {
   font-size: 17px;
   font-weight: 700;
   margin-top: 15px;
-}
-
-.hamburger {
-  display: none;
 }
 
 nav a {
@@ -146,18 +141,20 @@ nav a {
 
 /*--------------Section-1 Styles------------*/
 .section-1 {
-  margin: 100px;
+  margin: 70px;
 }
 
 .section-1 h1 {
   color: rgba(2, 36, 69, 1);
+  font-size: 45px;
+  font-weight: 900;
 }
 
 .flex-2 {
   display: flex;
   padding: 80px;
   justify-content: space-between;
-  border-radius: 5px;
+  border-radius: 8px;
   background: rgba(238, 247, 255, 1);
 }
 
@@ -167,12 +164,12 @@ nav a {
 }
 
 .flex-2 .img-1 {
-  width: 453px;
-  height: 523px;
+  width: 550px;
+  height: 630px;
 }
 
 .flex-2 h2 {
-  font-size: 25px;
+  font-size: 37px;
   font-weight: 500;
   line-height: 1px;
   letter-spacing: -1.5px;
@@ -180,8 +177,14 @@ nav a {
 }
 
 .line {
-  border: 1.5px solid rgba(17, 40, 58, 1);
-  width: 70%;
+  border: 2px solid rgba(17, 40, 58, 1);
+  width: 90%;
+  margin-right: 105px;
+}
+
+.line-5 {
+  border: 2px solid rgba(17, 40, 58, 1);
+  width: 80%;
   margin-right: 105px;
 }
 
@@ -190,20 +193,20 @@ nav a {
 }
 
 .flex-3 img {
-  width: 28px;
-  height: 25px;
+  width: 40px;
+  height: 30px;
   margin-top: 20px;
   color: rgba(142, 147, 166, 1);
 }
 
 .flex-3 p {
-  width: 316px;
-  font-size: 19px;
+  width: 360px;
+  font-size: 22px;
   font-weight: 300;
-  line-height: 18px;
+  line-height: 22px;
   letter-spacing: -0.5329999923706055px;
   color: rgba(2, 36, 69, 1);
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 #mt-1 {
@@ -224,7 +227,7 @@ nav a {
   background: rgba(23, 82, 127, 1);
   display: flex;
   justify-content: space-between;
-  margin: 100px;
+  margin: 70px;
   padding: 80px;
 }
 
@@ -234,20 +237,21 @@ nav a {
 }
 
 .section-2 .img-2 {
-  width: 483px;
-  height: 390px;
+  width: 423px;
+  height: 410px;
   margin-top: -30px;
 }
 
 .section-2 h1 {
   font-weight: 500;
+  font-size: 42px;
   letter-spacing: -0.5px;
-  line-height: 22px;
+  line-height: 35px;
   color: rgba(255, 255, 255, 1);
 }
 
 .section-2 h2 {
-  font-size: 25px;
+  font-size: 33px;
   font-weight: 500;
   line-height: 1px;
   letter-spacing: -1.5px;
@@ -255,11 +259,12 @@ nav a {
 }
 
 .mt-3 {
-  margin-top: 60px;
+  margin-top: 120px;
+  margin-left: 35px;
 }
 .line-2 {
-  border: 1.5px solid rgba(255, 255, 255, 1);
-  width: 70%;
+  border: 2px solid rgba(255, 255, 255, 1);
+  width: 85%;
   margin-right: 105px;
 }
 
@@ -268,20 +273,20 @@ nav a {
 }
 
 .flex-4 img {
-  width: 28px;
-  height: 25px;
+  width: 40px;
+  height: 30px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 1);
 }
 
 .flex-4 p {
-  width: 316px;
+  width: 360px;
   font-size: 19px;
-  font-weight: 300;
+  font-weight: 10;
   line-height: 22px;
   letter-spacing: -0.1329999923706055px;
   color: rgba(255, 255, 255, 1);
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .ml-3 {
@@ -289,7 +294,7 @@ nav a {
 }
 
 .line-3 {
-  border: 1.5px solid rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
   width: 70%;
   margin-right: 150px;
 }
@@ -298,13 +303,13 @@ nav a {
 .section-3 {
   display: flex;
   justify-content: space-around;
-  margin: 100px;
+  padding: 0px 80px 150px 70px;
 }
 
 .bg-1 {
   border-radius: 5px;
   background: rgba(81, 141, 164, 1);
-  padding: 50px;
+  padding: 60px 50px 190px 80px;
   height: 600px;
   margin-top: 250px;
 }
@@ -313,17 +318,17 @@ nav a {
   height: 70px;
 }
 
-.section-3 h3 {
-  font-size: 25px;
+.section-3 h1 {
+  font-size: 45px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 40px;
   letter-spacing: -1px;
   color: rgba(255, 255, 255, 1);
 }
 
 .section-3 h5 {
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 100;
   margin-top: -1px;
   letter-spacing: -0.5329999923706055px;
   color: rgba(255, 255, 255, 1);
@@ -335,24 +340,24 @@ nav a {
 }
 
 .flex-5 img {
-  width: 30px;
-  height: 20px;
+  width: 40px;
+  height: 30px;
   margin-top: 16px;
   color: rgba(255, 255, 255, 1);
 }
 
 .flex-5 p {
-  width: 230px;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 16px;
-  letter-spacing: -0.2329999923706055px;
+  width: 360px;
+  font-size: 19px;
+  font-weight: 100;
+  line-height: 22px;
+  letter-spacing: -0.1329999923706055px;
   color: rgba(255, 255, 255, 1);
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .section-3 .line-4 {
-  border: 1.5px solid rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
   width: 80%;
   margin-right: 150px;
 }
@@ -360,13 +365,13 @@ nav a {
 .bg-2 {
   border-radius: 5px;
   background: rgba(1, 43, 88, 1);
-  padding: 50px;
+  padding: 60px 40px 90px 80px;
 }
 
 .bg-3 {
   border-radius: 5px;
   background: rgba(23, 82, 127, 1);
-  padding: 50px;
+  padding: 60px 40px 90px 80px;
   margin-top: 35px;
 }
 
@@ -525,6 +530,17 @@ footer h5 {
 .group-2 {
   width: 300px;
   margin-bottom: 15px;
+}
+
+.details .fa-brands {
+  margin-left: 20px;
+  color: rgba(38, 90, 167, 1);
+}
+
+.font-awesome {
+  margin-left: -20px;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .details h4 {

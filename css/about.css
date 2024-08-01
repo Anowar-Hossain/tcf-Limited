@@ -20,20 +20,12 @@ html body {
   overflow-x: hidden;
 }
 
-/*--------------header related style---------------*/
-.header {
-  background: rgba(244, 244, 244, 1);
-  width: 100%;
-}
-
 /*---------------nav related styles---------------*/
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 70px;
-  color: rgba(244, 244, 244, 1);
-  padding: 5px;
 }
 
 nav > ul {
@@ -507,6 +499,17 @@ footer h5 {
 .group-2 {
   width: 300px;
   margin-bottom: 15px;
+}
+
+.details .fa-brands {
+  margin-left: 20px;
+  color: rgba(38, 90, 167, 1);
+}
+
+.font-awesome {
+  margin-left: -20px;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .details h4 {
