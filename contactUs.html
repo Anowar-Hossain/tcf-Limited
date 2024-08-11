@@ -52,16 +52,8 @@
             C/A, Banani, Dhaka, 1213, BD
           </p>
           <h4>Get directions</h4>
-          <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.49930141334!2d90.25487247764767!3d23.781067239454273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1722344961882!5m2!1sen!2sbd"
-              width="350"
-              height="200"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <div> 
+            <a onclick="openIt()" href="#"><img class="map-img" src="images/img-43.png" alt=""></a>
           </div>
           <h5>Business Hours</h5>
           <img class="group-1" src="icon/Group 20863.png" alt="" />
@@ -136,5 +128,12 @@
       </div>
     </footer>
     <!--------------Footer End Start---------->
+
+    <script>
+      function openIt(){
+        const url="https://www.google.com/maps/dir//Safura+Tower,+20+Kemal+Ataturk+Ave,+Dhaka+1213/@23.793797,90.402411,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3755c70e14f3985b:0x1a306f9147309aba!2m2!1d90.404071!2d23.79386!3e0?hl=en&entry=ttu"
+        window.open(url)
+      }
+    </script>
   </body>
 </html>
